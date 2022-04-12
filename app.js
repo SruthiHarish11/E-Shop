@@ -24,8 +24,7 @@ mongoose.connect(process.env.CONNECTION_STRING).then(()=>{
     console.log(err);
 });
 
-// admin1234
-// eshop_admin
+
 
 
 app.listen(3000,()=>{
